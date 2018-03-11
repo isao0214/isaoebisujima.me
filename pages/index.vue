@@ -5,6 +5,7 @@
     </h1>
     <div v-if="isMobile">
       <p>app.vueスマートフォン</p>
+      <header-sp/>
     </div>
     <div v-else>
       <p>app.vueパソコン</p>
@@ -13,8 +14,13 @@
 </template>
 
 <script>
+import HeaderSp from '~/components/HeaderSp.vue';
+
 export default {
   layout: 'app',
+  components: {
+    HeaderSp,
+  },
   asyncData({ isMobile }) {
     return {
       isMobile,
