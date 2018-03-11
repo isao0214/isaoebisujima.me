@@ -38,5 +38,13 @@ module.exports = {
         })
       }
     }
+  },
+  /*
+  ** Router configuration
+  */
+  router: {
+    middleware: [
+      'is-mobile',
+    ]
   }
 }
