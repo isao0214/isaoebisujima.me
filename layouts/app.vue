@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <p>app.vue上</p>
-      <nuxt/>
-    <p>app.vue下</p>
+    <nuxt/>
   </div>
 </template>
 
