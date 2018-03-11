@@ -1,5 +1,9 @@
 module.exports = {
   /*
+  ** Rendering mode
+  */
+  mode: 'spa',
+  /*
   ** Headers of the page
   */
   head: {
