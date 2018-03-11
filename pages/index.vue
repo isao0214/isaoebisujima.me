@@ -3,14 +3,14 @@
     <h1 class="title">
       portfolio
     </h1>
-    <div v-if="isMobile">
+    <template v-if="isMobile">
       <header-sp/>
       <footer-sp/>
-    </div>
-    <div v-else>
+    </template>
+    <template v-else>
       <header-pc/>
       <footer-pc/>
-    </div>
+    </template>
   </div>
 </template>
 
