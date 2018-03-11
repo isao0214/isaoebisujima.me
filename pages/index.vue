@@ -9,17 +9,20 @@
     </div>
     <div v-else>
       <p>app.vueパソコン</p>
+      <header-pc/>
     </div>
   </div>
 </template>
 
 <script>
 import HeaderSp from '~/components/HeaderSp.vue';
+import HeaderPc from '~/components/HeaderPc.vue';
 
 export default {
   layout: 'app',
   components: {
     HeaderSp,
+    HeaderPc,
   },
   asyncData({ isMobile }) {
     return {
