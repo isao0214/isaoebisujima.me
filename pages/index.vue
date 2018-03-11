@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title">
-      portfolioだ
+      portfolio
     </h1>
     <div v-if="isMobile">
       <p>app.vueスマートフォン</p>
@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import HeaderSp from '~/components/HeaderSp.vue';
-import HeaderPc from '~/components/HeaderPc.vue';
+import HeaderSp from '~/components/common/HeaderSp.vue';
+import HeaderPc from '~/components/common/HeaderPc.vue';
 
 export default {
   layout: 'app',
