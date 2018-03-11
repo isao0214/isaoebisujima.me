@@ -4,11 +4,9 @@
       portfolio
     </h1>
     <div v-if="isMobile">
-      <p>app.vueスマートフォン</p>
       <header-sp/>
     </div>
     <div v-else>
-      <p>app.vueパソコン</p>
       <header-pc/>
     </div>
   </div>
