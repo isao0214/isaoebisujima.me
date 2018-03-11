@@ -7,6 +7,7 @@
     </template>
     <template v-else>
       <header-pc/>
+      <index-pc/>
       <footer-pc/>
     </template>
   </div>
@@ -18,6 +19,7 @@ import HeaderPc from '~/components/common/HeaderPc.vue';
 import FooterSp from '~/components/common/FooterSp.vue';
 import FooterPc from '~/components/common/FooterPc.vue';
 import IndexSp from '~/components/IndexSp.vue';
+import IndexPc from '~/components/IndexPc.vue';
 
 export default {
   layout: 'app',
@@ -27,6 +29,7 @@ export default {
     FooterSp,
     FooterPc,
     IndexSp,
+    IndexPc,
   },
   asyncData({ isMobile }) {
     return {
