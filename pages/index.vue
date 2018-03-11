@@ -1,8 +1,5 @@
 <template>
   <div>
-    <h1 class="title">
-      portfolio
-    </h1>
     <template v-if="isMobile">
       <header-sp/>
       <footer-sp/>
