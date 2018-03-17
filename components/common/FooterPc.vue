@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <footer>
     <ul>
       <p>PC版フッター</p>
     </ul>
-  </header>
+  </footer>
 </template>
