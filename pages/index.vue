@@ -14,7 +14,7 @@ import IndexSp from '~/components/IndexSp.vue';
 import IndexPc from '~/components/IndexPc.vue';
 
 export default {
-  layout: 'app',
+  layout: ({ isMobile }) => isMobile ? 'appSp' : 'appPc',
   components: {
     IndexSp,
     IndexPc,
