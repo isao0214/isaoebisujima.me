@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <footer>
     <ul>
       <p>SP版フッター</p>
     </ul>
-  </header>
+  </footer>
 </template>
