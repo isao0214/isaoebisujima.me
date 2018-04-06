@@ -2,7 +2,7 @@
   <main class="main">
     <div class="main__content">
       <div class="main__content__avatar">
-        <img class="main__content__avatar__img" src="~/assets/img/avatar.jpg" alt="いさお@エンジニア" title="いさお@エンジニア">
+        <img class="main__content__avatar__img" src="~/assets/img/avatar.svg" alt="いさお@エンジニア" title="いさお@エンジニア">
       </div>
       <h1 id="title" class="main__content__title">
         いさお@エンジニア
