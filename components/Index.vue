@@ -69,62 +69,29 @@
           Nginx
         </li>
       </ul>
-      <h3>
-        Works
-      </h3>
-      <p>大阪のエンジニアリングスクールにて、ネットワーク講師として企業研修や個人授業を実施。このときLinux, WindowsのサーバーOS、ミドルウェア、Cisco製ネットワーク機器を扱う。<br>
-        <br>
-        東京に移りSIerに就職。ネットワーク、インフラ、開発の現場にて、ウォーターフォールでの各フェーズを経験する。<br>
-        <br>
-        4人規模のシステム開発会社にジョインし、
+      <p>
+        ネットワーク・インフラ講師、ネットワーク・インフラエンジニア、Webアプリケーションエンジニア、プロジェクトマネージャーなどの経験があります。<br>
+        様々なシステム、プロジェクトに関わり、小規模チームでフルスタックに対応することが得意です。
       </p>
-      <h3>
-        マインド
-      </h3>
-      <h3>
-        Licenses
-      </h3>
-      <ul class="main__content__licenses">
-        <li class="main__content__licenses__item">
-          Oracle Certified Java Programmer, Silver SE 7
-        </li>
-        <li class="main__content__licenses__item">
-          Windows Server 2008 Active Directory Configuring
-        </li>
-        <li class="main__content__licenses__item">
-          Linux Professional Institute Certification Level1
-        </li>
-        <li class="main__content__licenses__item">
-          Cisco Certified Network Associate
-        </li>
-      </ul>
       <h2 id="accounts">
         Accounts
       </h2>
       <h3>
         Twitter
       </h3>
+      https://twitter.com/isao_x
       <h3>
         GitHub
       </h3>
+      https://github.com/isao0214
       <h3>
         Qiita
       </h3>
+      https://qiita.com/isao_e
       <h3>
         Wantedly
       </h3>
-      <h2 id="service">
-        Service
-      </h2>
-      <h3>
-        プロジェクトマネジメント
-      </h3>
-      <h3>
-        システム開発
-      </h3>
-      <h3>
-        プログラミングメンタリング
-      </h3>
+      https://www.wantedly.com/users/18059181
     </div>
   </main>
 </template>
@@ -134,6 +101,7 @@
 .main {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
   &__content {
     width: 50%;
     &__avatar {
