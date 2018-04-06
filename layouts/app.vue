@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <header/>
+    <global-header/>
     <nuxt/>
-    <footer/>
+    <global-footer/>
   </div>
 </template>
 
 <script>
-import Header from '~/components/common/Header.vue';
-import Footer from '~/components/common/Footer.vue';
+import GlobalHeader from '~/components/common/Header.vue';
+import GlobalFooter from '~/components/common/Footer.vue';
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Footer,
+    GlobalHeader,
+    GlobalFooter,
   },
 };
 </script>
