@@ -1,28 +1,14 @@
 <template>
-  <div>
-    <template v-if="isMobile">
-      <index-sp/>
-    </template>
-    <template v-else>
-      <index-pc/>
-    </template>
-  </div>
+  <index/>
 </template>
 
 <script>
-import IndexSp from '~/components/IndexSp.vue';
-import IndexPc from '~/components/IndexPc.vue';
+import Index from '~/components/Index.vue';
 
 export default {
-  layout: ({ isMobile }) => isMobile ? 'appSp' : 'appPc',
+  layout: 'app',
   components: {
-    IndexSp,
-    IndexPc,
+    Index
   },
-  asyncData({ isMobile }) {
-    return {
-      isMobile,
-    }
-  }
 };
 </script>
