@@ -11,11 +11,6 @@
           Accounts
         </a>
       </li>
-      <li class="header__nav__item">
-        <a class="header__nav__item__link" href="#service">
-          Service
-        </a>
-      </li>
     </ul>
   </header>
 </template>
